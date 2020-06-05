@@ -1,4 +1,4 @@
-"# automation_test" 
+"# automation_test_firefox" 
 
 
 I have made an application for testing Automation Browser using Selenium and Tkinter (For GUI).
