@@ -8,7 +8,7 @@ from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
 # search btn
 def search_result():
     # setting custom path to firefox as binary
-    binary = FirefoxBinary(r'C:\Program Files (x86)\Mozilla Firefox\firefox.exe')
+    binary = FirefoxBinary(r'Enter device address where firefox is present')
     # initialize firebox webdriver
     bot=webdriver.Firefox(firefox_binary=binary)
     # to get data from url
@@ -27,25 +27,25 @@ def search_result():
 
 # facebook btn (shortcut key)
 def facebook():
-    binary1 = FirefoxBinary(r'C:\Program Files (x86)\Mozilla Firefox\firefox.exe')
+    binary1 = FirefoxBinary(r'Enter device address where firefox is present')
     bot1 = webdriver.Firefox(firefox_binary=binary1)
     bot1.get('https://www.facebook.com/')
 
 # twitter btn (shortcut key)
 def twitter():
-    binary2 = FirefoxBinary(r'C:\Program Files (x86)\Mozilla Firefox\firefox.exe')
+    binary2 = FirefoxBinary(r'Enter device address where firefox is present')
     bot2 = webdriver.Firefox(firefox_binary=binary2)
     bot2.get('https://www.twitter.com/')
 
 # github btn (shortcut key)
 def github():
-    binary3 = FirefoxBinary(r'C:\Program Files (x86)\Mozilla Firefox\firefox.exe')
+    binary3 = FirefoxBinary(r'Enter device address where firefox is present')
     bot3 = webdriver.Firefox(firefox_binary=binary3)
     bot3.get('https://www.github.com/')
 
 # coursera btn (shortcut key)
 def coursera():
-    binary4 = FirefoxBinary(r'C:\Program Files (x86)\Mozilla Firefox\firefox.exe')
+    binary4 = FirefoxBinary(r'Enter device address where firefox is present')
     bot4 = webdriver.Firefox(firefox_binary=binary4)
     bot4.get('https://www.coursera.com/')
 
